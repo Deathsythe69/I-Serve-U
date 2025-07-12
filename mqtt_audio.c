@@ -3,7 +3,7 @@
 #include <string.h>
 #include <unistd.h>
 #include <time.h>
-#include <pthread.h>
+#include <pthread.h> //POSIX Threads is an execution model that exists independently from a programming language
 #include <mosquitto.h>
 #include <json-c/json.h>
 
